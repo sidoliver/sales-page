@@ -365,6 +365,12 @@ input[type=text]:focus,input[type=tel]:focus,#subject:focus,#submit:focus {
       position: relative;
       font-size: 1rem;
       margin-bottom: 1em;
+      /* kj */
+      padding: 14px 14px;
+      top: -14px;
+      border: none;
+      color: #fff;
+      font-size: 0.6rem;
   }
   .nav-menu ul li a:hover {
       color: #fff;
