@@ -481,7 +481,7 @@ footer .logo {
 .form {
     width: 100%;
     margin-right: 10em;
-    height: 70%;
+    height: 80%;
 }
 .close-button {
     position: absolute;
@@ -494,4 +494,9 @@ input[type=text],input[type=tel],#subject {
     padding: 0 15px;
     width: 12em;
 }
+input[type=text]:focus,input[type=tel]:focus,#subject:focus,#submit:focus {
+    outline: none;
+    border: none;
+   
+   }
 }
