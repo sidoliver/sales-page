@@ -314,3 +314,6 @@ input[type=text]:focus,input[type=tel]:focus,#subject:focus,#submit:focus {
     background-color: black;
 }
 /* form end*/
+@media screen and (max-width: 1100px) {
+    
+}
