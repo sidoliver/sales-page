@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foodie: sales page</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
   </head>
   <body>
     <div class="hero">
@@ -20,84 +19,129 @@
               <li><a href="#">View menu</a></li>
               <li><a href="#">How it works</a></li>
               <li><a href="#">Contact us</a></li>
-              <li> <a href="#"><button>Choose Meal Kit</button></a> </li>
+              <li>
+                <a href="#"><button>Choose Meal Kit</button></a>
+              </li>
             </ul>
           </div>
         </nav>
         <article class="article">
-            <div class="content">
-                <h1>We Solve Your Dinner Problems</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo velit ex, non ultrices leo auctor at. Integer blandit ex velit, vel aliquam sem tempor eu. Pellentesque sem tortor, elementum et nisi sed, convallis pharetra lorem. Aenean rhoncus rhoncus ex, in dictum massa dictum et. </p>
-                <button>Let's Cook</button>
-            </div>
-            <div class="image">
-                <img src="images/food.png" alt="food">
-            </div>
+          <div class="content">
+            <h1>We Solve Your Dinner Problems</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              commodo velit ex, non ultrices leo auctor at. Integer blandit ex
+              velit, vel aliquam sem tempor eu. Pellentesque sem tortor,
+              elementum et nisi sed, convallis pharetra lorem. Aenean rhoncus
+              rhoncus ex, in dictum massa dictum et.
+            </p>
+            <button class="form-btn">Let's Cook</button>
+          </div>
+          <div class="image">
+            <img src="images/food.png" alt="food" />
+          </div>
         </article>
       </div>
     </div>
- <div class="wrapper">
-    <div class="section-2">
-        <div class="img-section">
-            <img src="images/section-2.png" alt="plate">
+    <div class="form-container">
+        <div class="close-button">
+            <button class="close-btn">close</button>
         </div>
-        <div class="text-content">
-            <h1>My Awesome Headline</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.</p>
-        </div>
+      <div class="form-logo">
+        <img src="images/dish.png" alt="logo" />
+      </div>
+      <div class="form">
+        <form>
+            <label for="name">Your Name</label><br>
+            <input type="text"  name="name" id="name"> <br>
+            <label for="phone">Phone</label><br>
+            <input type="tel" name="phone" id="phone"><br>
+            <label for="subject">Select Your Reciepe: </label><br>
+            <select name="subject" id="subject">
+                <option value="">Biriyani</option>
+                <option value="">Chicken Tikka</option>
+                <option value="">Dosa</option>
+                <option value="">Choole</option>
+              </select><br>
+              <input type="checkbox" name="checkbox" id="checkbox">
+              <label for="checkbox">I would like to receive food updates</label><br>
+              <input type="submit" value="contact" id="submit">
+        </form>
+      </div>
     </div>
-    <div class="section-3">
-        <div class="img-section">
-            <img src="images/section-3.png" alt="plate">
-        </div>
-        <div class="text-content">
-            <h1>My Awesome Headline</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.</p>
-        </div>
-    </div>
-    <div class="section-4">
-        <div class="img-section">
-            <img src="images/section-4.png" alt="plate">
-        </div>
-        <div class="text-content">
-            <h1>My Awesome Headline</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.</p>
-        </div>
-    </div>
-    <div class="section-5">
-        <h1>My Awesome Headline</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   
-           Nullam commodo velit ex, non ultrices leo auctor at. </p>
-       <button>Let's Cook</button>
-    </div>
- </div>
- <footer>
     <div class="wrapper">
+      <div class="section-2">
+        <div class="img-section">
+          <img src="images/section-2.png" alt="plate" />
+        </div>
+        <div class="text-content">
+          <h1>My Awesome Headline</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+            nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.
+          </p>
+        </div>
+      </div>
+      <div class="section-3">
+        <div class="img-section">
+          <img src="images/section-3.png" alt="plate" />
+        </div>
+        <div class="text-content">
+          <h1>My Awesome Headline</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+            nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.
+          </p>
+        </div>
+      </div>
+      <div class="section-4">
+        <div class="img-section">
+          <img src="images/section-4.png" alt="plate" />
+        </div>
+        <div class="text-content">
+          <h1>My Awesome Headline</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere
+            nisi itaque odio ullam sit repudiandae soluta nemo ut expedita unde.
+          </p>
+        </div>
+      </div>
+      <div class="section-5">
+        <h1>My Awesome Headline</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          commodo velit ex, non ultrices leo auctor at.
+        </p>
+        <button class="form-btn">Let's Cook</button>
+      </div>
+    </div>
+    <footer>
+      <div class="wrapper">
         <div class="logo">
-            <img src="images/logo.png" alt="logo">
+          <img src="images/logo.png" alt="logo" />
         </div>
         <div class="footer-link">
-            <div class="footer-menu">
-                <h1>About Us</h1>
-                <ul>
-                    <li><a href="#">LInks Here</a></li>
-                    <li><a href="#">LInks Here</a></li>
-                    <li><a href="#">LInks Here</a></li>
-                    <li><a href="#">LInks Here</a></li>
-                </ul>
-            </div>
-            <div class="footer-menu2">
-               <h1>Company</h1>
-               <ul>
-                   <li><a href="#">LInks Here</a></li>
-                   <li><a href="#">LInks Here</a></li>
-                   <li><a href="#">LInks Here</a></li>
-                   <li><a href="#">LInks Here</a></li>
-               </ul>
-           </div>
+          <div class="footer-menu">
+            <h1>About Us</h1>
+            <ul>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+            </ul>
+          </div>
+          <div class="footer-menu2">
+            <h1>Company</h1>
+            <ul>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+              <li><a href="#">LInks Here</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
+    <script src="app.js"></script>
   </body>
 </html>
