@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+:root {
+    --font-family: 'Arvo', serif;
+    --color: #0C2439;
+    --btn-clr: #FA5924;
+}
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset end */
+body {
+    font-family: var(--font-family);
+}
+.wrapper {
+    padding: 0 14%;
+}
+.hero {
+    margin-top: 2em;
+    height: 100vh;
+    margin-bottom: 18em;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    position: relative;
+    padding-right: 10em;
+}
+.nav-menu ul li {
+    margin-left: 3em;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    color: var(--color);
+}
+.nav-menu ul li a:hover {
+    color:#FA5924;
+}
+.nav-menu ul li a button {
+    position: absolute;
+    padding: 0.5em 1em;
+    top: -14px;
+    font-family: var(--font-family);
+    background: var(--btn-clr);
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 39px;
+}
+.nav-menu ul li a button:hover {
+    color: rgb(218, 218, 218);
+    background:#e64a16
+}
+/* article */
+.article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+.article h1 {
+    font-size: 4.6rem;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: var(--color);
+    line-height: 1.1;
+}
+.article p {
+    padding: 15px;
+    color: var(--color);
+    line-height: 1.8;
+}
+button {
+    padding: 0.6em 2.5em;
+    top: -14px;
+    font-family: var(--font-family);
+    background: var(--btn-clr);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 39px;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+/* section-2 */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #59B172;
+    margin-bottom: 3em;
+}
+.text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 2em;
+}
+.text-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    font-weight: 700px;
+    margin-bottom: 0.7em;
+}
+.text-content p {
+    color: #fff;
+    line-height: 1.5;
+}
+/* section-3 */
+.section-3 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #B4509E;
+    margin-bottom: 3em;
+}
+.section-4 {
+    background-color:#EE552A;
+    display: flex;
+    margin-bottom: 5em;
+}
+/* section -5 */
+.section-5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 8rem;
+}
+.section-5 h1{
+    font-size: 2.2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.section-5 p {
+    padding: 1em 15em;
+    text-align: center;
+    line-height: 1.6;
+    color: rgb(112, 108, 108);
+}
+footer .wrapper {
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 4em;
+    background: #F3F3F3;
+    padding:3em 6em;
+}
+footer .logo {
+    width: 30%;
+    margin-left: 8em;
+}
+.footer-link {
+    width: 70%;
+    display: flex;
+    justify-content:flex-start;
+}
+.footer-link li{
+    margin-bottom: 2em;
+    text-align: center;
+}
+.footer-link li a {
+    text-decoration: none;
+    color: rgba(39, 31, 31, 0.747);
+}
+.footer-link h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.footer-menu2 {
+    margin-left: 10em;
+}
+footer` {
+    border-bottom: 1px solid black;
+}
